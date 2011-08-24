@@ -4,8 +4,9 @@ A simple project which shows how to use the HTML5 Canvas element and its API. Yo
 
 ## Usage
 
-Open sphere.html with a compatible browser like Firefox 4, Chrome or Safari.
-
+1) Download this [repository](https://github.com/setumiami/Canvas3dSphere/archives/master)
+2) Unpack all files (html, js and png) in the same directory
+3) Open sphere.html with a compatible browser like Firefox, Chrome or Safari.
 
 ## Detailed information
 
