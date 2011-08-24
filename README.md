@@ -14,14 +14,18 @@ One of the most interesting news is the introduction of the HTML5 Canvas element
 
 The canvas element is defined as follows:
 
+```html
 <canvas id="sphere3d" width="100" height="100">
     Text to alert visitors that the Canvas
     is not supported by your browser.
 </canvas>
+```
 
 Where width and height are respectively the area of the canvas. The browser will place the rendering area in the exact spot where the item is defined in the HTML page.
 
 In JavaScript, to obtain the rendering context (Rendering Context) you should do this:
+
+```javascript
 var canvas = document.getElementById('sphere3d');
                
 if(canvas.getContext){
@@ -30,6 +34,7 @@ if(canvas.getContext){
 } else {
   // 2D Context not found
 }
+```
 
 The rendering context gives us access to all the APIs for drawing:
 
