@@ -4,7 +4,7 @@ A simple project which shows how to use the HTML5 Canvas element and its API. Yo
 
 ## Usage
 
-Open HTML file with a compatible browser like Firefox 4, Chrome or Safari.
+Open sphere.html with a compatible browser like Firefox 4, Chrome or Safari.
 
 
 ## Detailed information
