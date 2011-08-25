@@ -39,7 +39,7 @@ The rendering context gives us access to all the APIs for drawing:
 - Effects of composition and clipping
 
 In summary, the skeleton of a page that defines a HTML5 canvas could be summarized as follows:
-``` html
+```html
 <html>
   <head>
     <script type="text/javascript">
@@ -69,7 +69,7 @@ Let’s see what came out!
 
 First of all, I defined the classic primitive functions to handle 3D objects:
 
-``` html
+```html
 function Point3D() {
   this.x = 0;
   this.y = 0;
@@ -125,7 +125,7 @@ The 3D engine
 
 This piece is truly “old school”. Thinking of today’s engines, OpenGL based, this might seem awkward. Our engine, despite appearances, has only four functions:
 
-``` html
+```html
 function rotateX(point, radians) {
    var y = point.y;
    point.y = (y * Math.cos(radians)) + (point.z * Math.sin(radians) * -1.0);
@@ -154,7 +154,7 @@ Animation
 
 In practice, we ask the browser to call a function function init() at the end of HTML5 body load. Inside the function init() we set a timer with a rate of 30fps, and we tell him to call the render() each time he needs to perform the triggering.
 
-``` html
+```html
 function init(){
    // Set framerate to 30 fps
    setInterval(render, 1000/30);
@@ -167,7 +167,7 @@ Il render loop
 
 This is the heart of a classical 3D simple application
 
-``` html
+```html
 function render() {
 ...
    for(i = 0; i < sphere.numberOfVertexes; i++) {
@@ -208,7 +208,7 @@ All drawing functions make use of our demo function save() and restore(). These 
 
 Using these functions, the drawing method (like drawPoint()) won’t alter the state of the rending context.
 
-``` html
+```html
 function drawPoint(ctx, x, y, size, color) {
   ctx.save();
   ctx.beginPath();
