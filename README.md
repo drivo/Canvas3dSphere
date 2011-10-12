@@ -8,6 +8,10 @@ A simple project which shows how to use the HTML5 Canvas element and its API. Yo
 - Unpack all files (html, js and png) in the same directory
 - Open sphere.html with a compatible browser like Firefox, Chrome or Safari.
 
+## Demo
+
+A demo is available at this url: [http://www.bitstorm.it/html5/sphere.html](http://www.bitstorm.it/html5/sphere.html)
+
 ## Detailed information
 
 One of the most interesting news is the introduction of the HTML5 Canvas element. Originally introduced by Apple in its engine Webkit, the canvas allow us to draw 2D (and 3D) in a specific region of HTML with JavaScript programming language.
