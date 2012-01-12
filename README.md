@@ -173,8 +173,10 @@ function init(){
 ...
 ...
 <body onload="init();">
-Il render loop
+
 ```
+
+## The Render Loop
 
 This is the heart of a classical 3D simple application
 
